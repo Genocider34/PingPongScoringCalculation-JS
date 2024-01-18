@@ -143,10 +143,10 @@ body {
   margin-bottom: 20px;
 }
 
-.win-active {
+.winner {
   color: green;
 }
 
-.lose-active {
+.loser {
   color: red;
 }

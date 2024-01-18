@@ -7,22 +7,18 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="player-container">
-      <span id="player1Score">0</span>
-      -
-      <span id="player2Score">0</span>
-    </div>
-    <h2>Select the Score Goal:</h2>
-    <select name="" id="score-goal">
-      <option value="" selected>-- Please Select a Score Goal--</option>
-      <option value="3">3</option>
+    <h1>
+      <span class="p1-display">0</span> to <span class="p2-display">0</span>
+    </h1>
+    <select name="" id="play-to">
+      <option value="3" selected>3</option>
       <option value="4">4</option>
       <option value="5">5</option>
-      <option value="6">6</option>
+      <option value="7">7</option>
     </select>
-    <button class="player1Btn">Player 1</button>
-    <button class="player2Btn">Player 2</button>
-    <button class="resetBtn">Reset</button>
+    <button class="p1-btn">Player 1</button>
+    <button class="p2-btn">Player 2</button>
+    <button class="reset-btn">Reset</button>
     <script src="script.js"></script>
   </body>
 </html>
